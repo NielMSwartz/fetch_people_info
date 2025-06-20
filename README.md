@@ -1,1 +1,1 @@
-# fetch_people_info
+Reading info info from an excel sheet with names and more information of the person in the rest of the columns. When the name is typed into the input field and searched the persons information will display in an output field and you will be able to see all the important information on that person.
