@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_excel("vbs_persoonlike_inligting.xlsx")
+df = pd.read_excel("data.xlsx")
 
 def search_info(name):
     name = name.strip().lower()
