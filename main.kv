@@ -1,0 +1,29 @@
+#:kivy 2.3.1
+
+<RootWidget>:
+    BoxLayout:
+        orientation: "vertical"
+        padding: 20
+        spacing: 10
+
+        TextInput:
+            id: name_input
+            hint_text: "Enter Name"
+            size_hint_y: None
+            height: 40
+            multiline: False
+
+        Button:
+            text: "Search"
+            size_hint_y: None
+            height: 40
+            on_press: root.search()
+
+        Label:
+            id: result_label
+            text: "Info to apear here:"
+            halign: "left"
+            valign: "top"
+            text_size: self.width, None
+            size_hint_y: None
+            height: self.texture_size[1]
